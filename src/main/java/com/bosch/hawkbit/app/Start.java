@@ -11,7 +11,7 @@ import com.bosch.hawkbit.autoconfigure.security.EnableHawkbitManagedSecurityConf
 import com.bosch.sp.server.RepositoryApplicationConfiguration;
 
 /**
- * @author imm0344
+ * @author Michael Hirsch
  *
  */
 @SpringBootApplication
