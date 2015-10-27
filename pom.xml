@@ -38,6 +38,17 @@
          <artifactId>sp-webapp</artifactId>
          <version>${hawkbit.version}</version>
       </dependency>
+      <dependency>
+         <groupId>com.bosch.sp</groupId>
+         <artifactId>sp-security-integration</artifactId>
+         <version>${hawkbit.version}</version>
+      </dependency>
+      <dependency>
+         <groupId>com.bosch.sp</groupId>
+         <artifactId>sp-http-security</artifactId>
+         <version>${hawkbit.version}</version>
+      </dependency>
+
 
       <!-- Spring -->
       <dependency>
