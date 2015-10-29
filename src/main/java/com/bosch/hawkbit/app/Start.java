@@ -9,13 +9,14 @@ import org.springframework.context.annotation.Import;
 
 import com.bosch.hawkbit.autoconfigure.security.EnableHawkbitManagedSecurityConfiguration;
 import com.bosch.sp.server.RepositoryApplicationConfiguration;
+import com.bosch.sp.server.amqp.AmqpConfiguration;
 
 /**
  * @author Michael Hirsch
  *
  */
 @SpringBootApplication
-@Import( RepositoryApplicationConfiguration.class )
+@Import( { RepositoryApplicationConfiguration.class, AmqpConfiguration.class } )
 @EnableHawkbitManagedSecurityConfiguration
 public class Start {
 

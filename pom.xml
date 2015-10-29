@@ -35,6 +35,11 @@
       </dependency>
       <dependency>
          <groupId>com.bosch.sp</groupId>
+         <artifactId>sp-amqp</artifactId>
+         <version>${hawkbit.version}</version>
+      </dependency>
+      <dependency>
+         <groupId>com.bosch.sp</groupId>
          <artifactId>sp-webapp</artifactId>
          <version>${hawkbit.version}</version>
       </dependency>
