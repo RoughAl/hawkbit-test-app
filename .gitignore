@@ -76,3 +76,4 @@ local.properties
 ######################
 maven.properties
 /*/maven.properties
+/database/
