@@ -1,4 +1,4 @@
-FROM nfnty/arch-java:jre8-openjdk
+FROM nfnty/arch-jre8
 MAINTAINER docker-maven-plugin@jolokia.org
 SPRING_PROFILES_ACTIVE=docker
 EXPOSE 5683 5684 8082
